@@ -1,0 +1,8 @@
+@font-face { 
+  font-family: Chivo-Thin; 
+  src: url('../resources/fonts/Chivo-Thin.ttf'); 
+} 
+
+h2 {
+  margin-top: 20px;
+}

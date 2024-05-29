@@ -1,0 +1,73 @@
+.crypto-title-page{
+    text-align: center;
+    margin-top: 2rem !important;
+    font-weight: 900 !important;
+    color: #4cbfc0;
+}
+
+.crypto-item-table{
+    border: 1px solid #999999 !important;
+}
+
+.crypto-list-items{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.crypto-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    width: 49%;
+    background-color: #4cbfc0;
+    color: black;
+    height: 56px;
+    margin-top: 8px;
+    border-radius: 4px;
+    align-items: center;
+    padding-left: 1rem;
+    border: 1px solid #ffffff;
+}
+
+.title-crypto-selected {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 3.5rem;
+    background-color: #4cbfc0;
+    color: black;
+    border-radius: 3px;
+    height: 50px;
+    display: flex;
+    border: 1px solid #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto-item-table:hover {
+    background-color: #4cbfc0 !important;
+}
+
+.crypto-item-selected-title:hover{
+    background-color: #4cbfc0;
+}
+
+.container-search-title{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.container-text-scrolling-prices{
+    font-size: 25px;
+    border: 1px solid #b8b8b8;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+}
