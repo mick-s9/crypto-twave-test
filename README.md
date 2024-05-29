@@ -63,23 +63,24 @@ It is possible to show and hide the chart by clicking on the items in the list. 
 ## General Project Description
 The application is primarily composed of the following modules:
 
-Main Component (App.tsx):
 
+Main Component (App.tsx):
 Contains the main logic for fetching and updating cryptocurrency data.
 Uses Redux to manage the global state of the application.
 Displays a title and the list of cryptocurrencies via the CryptoList component.
-State Management (store/):
 
+
+State Management (store/):
 Configuration of the Redux store using Redux Toolkit.
 Usage of slices to manage the state of cryptocurrencies, including current data and price histories.
 Definition of asynchronous thunks to make API calls and fetch cryptocurrency data.
-Components (components/):
 
+Components (components/):
 CryptoList: Component that displays the list of cryptocurrencies and manages the selection of cryptocurrencies to be tracked.
 CryptoItem: Component representing a single cryptocurrency in the list.
 CryptoChart: Component that shows the historical price chart of a selected cryptocurrency.
-Styling (styles/):
 
+Styling (styles/):
 Usage of Material-UI for styled components and layout.
 CSS files for global and component-specific styles.
 
